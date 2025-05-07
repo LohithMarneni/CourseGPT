@@ -4,21 +4,6 @@
 ## 🌟 Project Overview
 **CourseGPT** is an intelligent web-based tool designed to empower educators and content creators by transforming the course creation process. With AI-assisted content generation, structured lesson templates, and intuitive organization tools, CourseGPT significantly reduces the time and effort needed to build pedagogically sound educational content.
 
-## 🎯 Problem Statement
-Educational content creators often struggle with:
-- Time-consuming content creation
-- Maintaining structural coherence across courses
-- Designing engaging activities and assessments
-- Ensuring pedagogical quality at scale
-
-## ✅ Objectives
-CourseGPT addresses these challenges by:
-1. Streamlining the authoring workflow with intelligent templates
-2. Implementing AI-assisted generation for structured lesson content
-3. Providing logical tools for organizing and sequencing course modules
-4. Offering an intuitive editor to refine and format AI-generated material
-
----
 
 ## 🧩 Core Features
 
@@ -60,7 +45,7 @@ CourseGPT addresses these challenges by:
 
 ## 🚀 Live Demo
 [🌐 Deployed Link](https://course-gpt-git-main-lohith-marnenis-projects.vercel.app/)  
-> Replace with your actual deployed URL.
+
 
 ---
 
