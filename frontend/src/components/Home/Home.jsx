@@ -1,14 +1,17 @@
 import { useNavigate } from "react-router-dom";
-
 import Card from "./Card";
-import { useState } from "react";
+import { useAuth } from "../../context/authContext"; 
 
 function Home() {
   const navigate = useNavigate();
-const [isAuthenticated, setIsAuthenticated] = useState(
-    localStorage.getItem("userToken") ? true : false
-  );
-
+  const { isAuthenticated } = useAuth(); //Use auth context here
+  const handleGetStarted = () => {
+    if (isAuthenticated) {
+      navigate("/courses"); // Go to courses if logged in
+    } else {
+      navigate("/login"); // Go to login if not logged in
+    }
+  };
   return (
     <div className="w-full min-h-screen bg-gray-100 ">
       {/* First Section: Hero */}
@@ -21,9 +24,9 @@ const [isAuthenticated, setIsAuthenticated] = useState(
           <p className="text-lg text-gray-700 mt-4">
             Your gateway for Skill Building and Career Advancement Roadmap.
           </p>
-        <button
+          <button
             className="mt-6 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-900 transition"
-            onClick={() => navigate("/login")}
+            onClick={handleGetStarted}
           >
            Get Started
           </button>
