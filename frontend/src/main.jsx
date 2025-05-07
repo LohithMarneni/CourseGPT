@@ -11,9 +11,9 @@ import Login from './components/Login/Login.jsx';
 import SignUp from './components/SignUp/SignUp.jsx';
 import { AuthProvider } from './context/authContext.jsx';
 import CreateCourse from './components/CreateCourse/CreateCourse.jsx';
-import GetQuiz from './components/Quiz/getQuiz.jsx';
+import GetQuiz from './components/Quiz/GetQuiz.jsx';
 import SubmitQuiz from './components/Quiz/submitQuiz.jsx';
-export const server = "http://localhost:3000/api/";
+export const server = "https://coursegpt-f845.onrender.com/api/";
 
 const router = createBrowserRouter([
   {
