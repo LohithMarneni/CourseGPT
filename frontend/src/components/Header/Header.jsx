@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <nav className="flex justify-between items-center p-5 bg-white text-white w-full border-b-2 border-black shadow-md">
-      <h1 className="text-2xl font-bold text-black">Skill Sphere</h1>
+      <h1 className="text-2xl font-bold text-black">CourseGPT</h1>
       <div className="text-black">
         <Link
           className="mx-3 text-black hover:text-gray-700 active:text-gray-900 focus:outline-none"

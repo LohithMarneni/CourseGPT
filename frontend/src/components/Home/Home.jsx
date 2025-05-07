@@ -16,7 +16,7 @@ const [isAuthenticated, setIsAuthenticated] = useState(
         {/* Left Section - Text Content */}
         <div className="w-1/2 flex flex-col items-start justify-center px-10">
           <h1 className="text-5xl font-bold text-black leading-tight">
-            Welcome to Skill Sphere
+            Welcome to CourseGPT
           </h1>
           <p className="text-lg text-gray-700 mt-4">
             Your gateway for Skill Building and Career Advancement Roadmap.
